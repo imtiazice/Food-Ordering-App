@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_eat_it"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtSlogan"
+            android:textColor="@android:color/white"
+            android:layout_width="200dp"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:text="@string/slogan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<info.hoang8f.widget.FButton
+            android:id="@+id/btnSignUp"
+            android:text="SignUp"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            app:buttonColor="@color/btnSignUp"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"/>-->
+
+        <Button
+            android:id="@+id/btn_SignUp"
+            android:text="Sign Up"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_sign_up"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:layout_margin="8dp"
+            />
+
+        <Button
+            android:id="@+id/btn_SignIn"
+            android:text="Sign In"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_sign_in"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949432632798",
+    "firebase_url": "https://foodorderingapplication-aca32.firebaseio.com",
+    "project_id": "foodorderingapplication-aca32",
+    "storage_bucket": "foodorderingapplication-aca32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949432632798:android:0ebcfd195b82b9b1",
+        "android_client_info": {
+          "package_name": "com.imtiaz.food_ordering_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949432632798-qlkbjjjvdv4jabt8jqe2p3kepuas75cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imtiaz.food_ordering_application",
+            "certificate_hash": "ed8a987ef2f3f1b03a860344102ef9fea055dd90"
+          }
+        },
+        {
+          "client_id": "949432632798-pnv2vq389uok01s7kbnagou4u8k8rnbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoaCv4CMVWmPqCi8uleJ4f7B4-NL3ea0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949432632798-pnv2vq389uok01s7kbnagou4u8k8rnbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
